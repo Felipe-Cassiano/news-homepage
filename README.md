@@ -1,2 +1,2 @@
 # news-homepage
- Frontend Mentor Challenge
+ Desafio do Front-End Mentor News-Homepage(__DESAFIO CONCLUÍDO__)

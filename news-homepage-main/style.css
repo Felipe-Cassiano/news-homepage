@@ -1,0 +1,213 @@
+/* Configurações Gerais */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+/* ------------------------------------------------------ */
+
+
+/* Menu */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+nav img {
+    width: 65px;
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+/* Menu - Transição */
+
+nav ul li:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
+
+/* ------------------------------------------------------ */
+
+
+/* Seção 1 - Artigo Principal e Novos */
+
+/* Seção 1 - Artigo Principal */
+#section1 {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.main-article {
+    display: flex;
+    flex-direction: column;
+    width: 675px;
+}
+
+.main-article img {
+    width: 675px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-article-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.main-article-info h1 {
+    font-size: 45px;
+    font-weight: 800;
+    width: 300px;
+}
+
+.main-article-info-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    gap: 10px;
+}
+
+
+.main-article-info-summary button {
+    background-color: hsl(5, 85%, 63%);
+    color: black;
+    letter-spacing: 5px;
+    width: 210px;
+    padding: 15px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Seção 1 - Artigo principal - Transição */
+
+.main-article-info-summary button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ------------------------------------------------------ */
+
+/* ------------------------------------------------------ */
+
+/* Seção 1 - Novos */
+.new {
+    background-color: hsl(240, 100%, 5%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.new h1 {
+    color: hsl(35, 77%, 62%);
+    font-size: 35px;
+    margin: 0;
+    padding: 15px;
+}
+
+.new-news {
+    color: hsl(36, 100%, 99%);
+    margin: 0;
+    padding: 15px;
+}
+
+.new-news h3 {
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Seção 1 - Novos - Transição */
+
+.new-news h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+/* ------------------------------------------------------ */
+
+.new-news hr {
+    border-color: hsl(236, 13%, 42%);
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------------------------ */
+
+/* Seção 2 - Notícias Populares */
+
+#section2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.popular-news {
+    display: flex;
+    gap: 15px;
+    width: 300px;
+}
+
+.popular-news img {
+    width: 100px;
+}
+
+.popular-news-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.popular-news-info h1 {
+    font-size: 25px;
+    margin: 0;
+    color: hsl(5, 85%, 63%);
+}
+
+.popular-news-info h4 {
+    margin: 0;
+}
+
+/* Seção 2 - Notícias Populares - Transição */
+
+.popular-news-info h4:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+/* ------------------------------------------------------ */
+
+.popular-news-info p {
+    margin: 0;
+}
+
+/* ------------------------------------------------------ */
